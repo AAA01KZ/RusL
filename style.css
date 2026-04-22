@@ -110,11 +110,14 @@ section {
     background-attachment: fixed;
 }
 
-.bg1 { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('img/train.jpg') center/cover no-repeat; }
-.bg2 { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('img/highway.jpg') center/cover no-repeat; }
-.bg3 { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('img/port.jpg') center/cover no-repeat; }
-.bg4 { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('img/logistics.jpg') center/cover no-repeat; }
-
+/* bg1 - Письменный стол/старина */
+.bg1 { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1920') center/cover no-repeat; }
+/* bg2 - Книги/библиотека */
+.bg2 { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=1920') center/cover no-repeat; }
+/* bg3 - Свечи/мистика */
+.bg3 { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1514332130164-27b1b0c01da8?q=80&w=1920') center/cover no-repeat; }
+/* bg4 - Старая бумага/чернила */
+.bg4 { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=1920') center/cover no-repeat; }
 .content {
     position: relative;
     z-index: 2;
