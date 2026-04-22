@@ -3,12 +3,12 @@
 
 /* КОПИПАСТА НЕ ПРИВЕТСТВУЕТСЯ, Напишите сами */
 :root {
-    --nav-bg: rgba(15, 32, 39, 0.95);
-    --content-bg: rgba(20, 30, 48, 0.85);
+    --nav-bg: rgba(20, 20, 20, 0.95);
+    --content-bg: rgba(25, 25, 25, 0.85);
     --card-width: 280px;
     --card-height: 200px;
-    --accent: #00d2ff;
-    --accent-dark: #3a7bd5;
+    --accent: #d4af37; /* Золотистый акцент */
+    --accent-dark: #aa8a2e;
     --text-white: #ffffff;
 }
 
@@ -64,7 +64,7 @@ nav#mainNav a.active {
 
 header#home {
     height: 100vh;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    background: linear-gradient(135deg, #1a1a1a, #2c3e50), url('https://images.unsplash.com/photo-1547127796-06bb04e4b315?q=80&w=1920');
     background-size: cover;
     background-position: center;
     position: relative;
